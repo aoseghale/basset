@@ -66,4 +66,8 @@ class FactoryManager extends Manager {
 		return $this->app['basset.log'];
 	}
 
+	public function getDefaultDriver() 
+	{
+	}
+
 }
